@@ -4,10 +4,3 @@ metadata:
   labels:
     istio-injection: enabled
   name: prod
-
----
-
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: test-flux
